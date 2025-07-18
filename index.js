@@ -19,6 +19,11 @@ app.get("/user/purchases", function(req,res){
         message:"Singup endpoint"
     })
 })
+app.post("/course/purchases", function(req,res){
+    res.json({
+        message:"Singup endpoint"
+    })
+})
 
 app.get("/courses", function(req,res){
     res.json({
